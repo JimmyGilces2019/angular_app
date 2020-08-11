@@ -1,0 +1,90 @@
+.banner img {
+    width: 200px;
+}
+
+.jumbotron {
+    padding: 0 !important;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.container .cinta {
+    background: #dd2244;
+    border-left: 10px solid #cc0033;
+    padding: 10px;
+    color: white;
+}
+
+.container .cinta .title {
+    font-size: 20px;
+}
+
+.content-page {
+    padding: 20px;
+    text-align: justify;
+}
+
+.lista {
+    margin: 5px;
+}
+
+.list-group-item {
+    border-color: #dd2244 !important;
+}
+
+.code-zone {
+    padding: 10px;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.code-zone #entry-code {
+    color: #999;
+}
+
+.img-code {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.img-code img {
+    border-radius: 5px;
+}
+
+.list-group .list-group-item {
+    transition: 750ms;
+}
+
+.list-group .list-group-item:hover {
+    background: #cc0033;
+    color: white;
+    cursor: pointer;
+}
+
+DATO .box-example {
+    width: 30%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.box-example {
+    margin: 0 auto;
+}
+
+.sub-title {
+    padding: 10px 0;
+    color: #cc0033;
+}
